@@ -32,7 +32,7 @@ body {
 
 .empty-diagonal {
     position: absolute;
-    top: -70vh;
+    top: -70%;
     left: 0;
     right: 0;
     height: 1000px;
@@ -145,6 +145,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 4rem;
+    gap: 2rem;
 }
 
 .foot-container {
@@ -159,6 +160,7 @@ body {
 }
 
 @media (max-width: 600px) {
+    
     .head {
         flex-direction: column;
         gap: 20px;
@@ -170,6 +172,7 @@ body {
     }
 
     .empty-diagonal {
+        top: -90%;
         transform: skewY(-15deg);
     }
 
@@ -202,6 +205,9 @@ body {
         flex-direction: column;
         gap: 20px;
         padding: 0;
+        border: 0;
+        margin: 0;
+        width: 100vw;
     }
 
     .foot-container {

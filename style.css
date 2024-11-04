@@ -80,6 +80,11 @@ body {
     font-size: 2rem;
 }
 
+.container-text { 
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 .main-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
